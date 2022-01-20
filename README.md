@@ -40,7 +40,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aruladam/Adam-Music/tree/Dev)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aruladam/Adam-Music/tree/master)
 
 + Recomended use Europe server for deploy on Heroku
 
