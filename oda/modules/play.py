@@ -312,9 +312,9 @@ async def play(_, message: Message):
             )
 
         file_name = get_file_name(audio)
-        url = f"https://t.me/{UPDATE}"
+        url = f"https://t.me/@updatebotsadam"
         title = audio.title
-        thumb_name = "https://telegra.ph/file/a7adee6cf365d74734c5d.png"
+        thumb_name = "https://telegra.ph/file/a2bccc836c1e6906fe690.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url=f"t.me/grup_anime_lovers_indo"),
+                    InlineKeyboardButton("🚨 Support", url=f"t.me/wibu_telegram"),
                     InlineKeyboardButton("📡 Updates", url=f"t.me/updatebotsadam"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
@@ -360,7 +360,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🚨 Support", url=f"t.me/grup_anime_lovers_indo"),
+                        InlineKeyboardButton("🚨 Support", url=f"t.me/wibu_telegram"),
                         InlineKeyboardButton("📡 Updates", url=f"t.me/updatebotsadam"),
                     ],
                     [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
@@ -369,7 +369,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/a7adee6cf365d74734c5d.png"
+            thumb_name = "https://telegra.ph/file/a2bccc836c1e6906fe690.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -453,7 +453,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "🧐 **Song not found! Try searching with the correct title\nExample » /play In The End\n\nChannel : @UserLazyXBot**"
+                "🧐 **Song not found! Try searching with the correct title\nExample » /play In The End\n\nChannel : @UpdateBotsAdam**"
             )
         await lel.edit("🔎 **Finding the song...**")
         query = message.text.split(None, 1)[1]
@@ -489,7 +489,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url=f"t.me/grup_anime_lovers_indo"),
+                    InlineKeyboardButton("🚨 Support", url=f"t.me/wibu_telegram"),
                     InlineKeyboardButton("📡 Updates", url=f"t.me/updatebotsadam"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
