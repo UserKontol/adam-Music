@@ -1,4 +1,4 @@
-<h2 align="centre">Telegram Group Music Player Bot 🎵</h2>
+<h2 align="centre">Adam Music Player Bot 🎵</h2>
 
 ### A bot that can play music on telegram group's voice call
 
@@ -40,7 +40,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aruladam/Adam-Music/tree/san)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aruladam/Adam-Music/tree/Dev)
 
 + Recomended use Europe server for deploy on Heroku
 
@@ -56,4 +56,4 @@
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 - [CallMusic](https://github.com/Callsmusic): CallMusic
 - [WilliamButcherBot](https://github.com/TheHamkerCat/WilliamButcherBot): Broadcast 
-- [Oda Nobunaga](https://t.me/OdaRobot): Bot
+- [Adam Robot](https://t.me/AdamXRobot): Bot
